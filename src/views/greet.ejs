@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HAPPY DIWALI</title>
+    <link rel="stylesheet" href="/css/greet.css">
+    
+</head>
+<body>
+    <div class="circle">
+        <h1>Happy <br><span>Diwali</span><br><p style="margin-top: 1%;"><%=data.name%></p></h1>
+        <div class="light"></div>
+    </div>
+    <form action="/greet" method="POST">
+        <input style="margin-left:40%;  margin-top: 30%;" id="emai" type="text" name="mail" value="<%=data.mail%>">
+        <input style="margin-left:40%;" type="text" name="name" id="namam" value="<%=data.name%>">
+    <button style="width: 10%; margin-top: 12%;margin-left: 45%;" onclick="show()" type="submit">send</button></form>
+    <script src="/js/diwali.js"></script>
+</body>
+</html>

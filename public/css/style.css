@@ -1,0 +1,22 @@
+body{
+    background-image: url(/images/d2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#nav{
+    color: red;
+    background-color: rgb(184, 187, 8);
+}
+#brand{
+    width: 8%;
+    height: 8%;
+}
+#bt{
+    color:black;
+    background-color: white;
+}
+#bt:hover{
+    border: 2px solid white;
+    
+    font-weight: bold;
+}
